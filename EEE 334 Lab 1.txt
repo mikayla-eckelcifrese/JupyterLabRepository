@@ -1,0 +1,335 @@
+﻿
+
+
+
+
+
+
+
+
+
+EEE 334 Online Lab 1
+
+LTSpice and Lab Orientation - Instruments and Measurements
+
+Due date: 05/26/2021
+
+Student name:  Mikayla Eckel Cifrese
+
+Student I.D. number: 1218073805
+
+Instructor: Dr. Chickamenahalli
+
+
+Introduction:
+
+- What is this experiment about?
+This is an introductory lab intended to allow the student to get familiar with LTSpice and the hardware components.
+- What components or special equipment will be used?
+The oscilloscope, signal generator and network analyzer, all from the ADK kit, will be used.
+- What type of analysis or results will be researched?
+The experimental data from the physical circuits will be compared to the data obtained from simulating the circuits via LTSpice.  
+
+
+
+Equipment and Components:
+
+a. Equipment
+
+NameModelQuantityADK Discovery KitN/A1Analog Parts KitN/A1Digital MultimeterMSR-A6001BreadboardN/A11
+
+b. Components
+
+
+NameValueQuantityResistor1kΩ2Resistor2.2kΩ3Resistor10kΩ2Resistor20kΩ1Capacitor0.01μF1
+
+
+
+
+
+
+
+Course of Action:
+
+1.1 Simple DC circuit
+Figure 1: Schematic of Simple DC Circuit.
+
+1. Vout and the current through R2 will be manually calculated via KVL and Ohm’s law.
+2. A DC operating point analysis will be performed on the circuit to determine the value of  
+     Vout and the value of the current through R2.
+3. The physical circuit will be built on the breadboard using the resistors and the ADK.
+4. Vout will be measured using the waveform software that works with the ADK and the current will be measured with the multimeter.
+5. Percent error will be computed between the measured values and each of the computed and simulated values.
+1.2 Simple AC circuit
+
+
+Figure 2: Schematic of Simple AC Circuit.
+
+1. Current and voltages will be manually computed via voltage division and Ohm’s law.
+2. Transient analysis in Spice will be used to obtain plots of current and voltage waveforms.
+3. The physical circuit will be built and the resistor values measured with the multimeter.
+4. The ADK waveform generator will be used to obtain plots of a sine wave, square wave, and a triangular wave respectively through the second and fourth resistors.
+5. The error will be computed between the calculated, simulated, and measured values.
+
+1.3 Low Pass Filter Analysis
+Figure 3: Schematic of Low Pass Filter
+
+1. Voltage gain will be computed using AV = VO/VI and bandwidth using ω_3dB=1/RC.
+2.  In Spice, transient analysis will be used to compute the phase shift and AV, while AC   
+      analysis will be used to compute the maximum gain and maximum efficiency in decibels.
+3.   The physical circuit will be built and Vpp, Vrms, and the phase shift of Vout will be  
+       measured using waveforms and the ADK.  The waveform network analyzer will also be 
+       used to make a bode plot.
+4. %Error will be computed between the theoretical/simulated results and the empirical 
+     results.
+1.4 High Pass Filter Analysis
+Figure 5: Schematic of High Pass Filter
+
+1. The procedure will be mostly the same as in section 1.3.  Voltage gain and bandwidth will  
+    be computed the same way.
+2. In Spice, transient and AC analysis will be used for the same purposes as in 1.3.
+3. The physical circuit and network analyzer will be used analogously.
+4. %Error will be computed.
+
+Results:
+
+1.1 Simple DC circuit
+
+Calculations 
+Calculation of Vout: 
+Lefthand loop KVL equation: -4V = V_"out"  + V_(R_2 )
+Ohm’s law equations: V_"out" =2.2k⋅I_(R_2 ),  V_(R_2 )=2.2k⋅I_(R_3 ) 
+Current is constant in series → I_(R_2 ) = I_(R_3 )  → Vout = V_(R_3 )→ -4V = Vout + V_(R_2 ) = -4V = 2Vout  → Vout = -2V
+Calculation of I_(R_2 ): I_(R_2 )= I_(R_3 ) = Vout/R3 = -(-2V/(2.2*103Ω) = 9.1*10-4A = 910µA
+Note that the additional negative sign is due to the reversed orientation of the voltage source.  The usual sign conventions mean the current should be positive while the voltage is negative, hence the extra minus sign.
+LTSpice simulation
+
+
+
+Figure 5: Plot of DC Operating Point Analysis of Simple DC Circuit
+
+
+
+
+
+
+
+
+Hardware Simulation
+ Figure 6: Plot of Measurement of Vout  from Waveforms Software 
+
+Comparison
+TheoreticalSimulatedMeasured%ErrorVout-2V-2V-1.9777V0.015%|IR2|910µA910µA922 µA1.30%Table 1
+
+1.2 Simple AC Circuit 
+Voltmeter values:   R2 = 0.248V, R4 = 0.245V
+Calculations
+Current calculations: 
+I_(R_2 )=V_s/(R_1+R_2 )=sin⁡(200πt)V/2k=0.5 sin⁡(200πt)mA,  I_(R_4 )=V_s/(R_3+R_4 )=sin⁡(200πt)V/20k=〖0.05 sin〗⁡(200πt)mA
+
+Voltage calculations:
+V_(R_1 )=V_(R_2 )=I_(R_2 ) R_2=1k⋅0.5 sin⁡(200πt)mA=0.5 sin⁡(200πt)V
+V_(R_3 )=V_(R_4 )=I_(R_4 ) R_4=10k⋅0.05 sin⁡(200πt)mA=0.5 sin⁡(200πt)V
+The defining equation for root mean squared voltage is Vrms = 1/T ∫_0^T▒〖V(t)^2 dt〗.
+The more convenient equation to use, however, is Vrms =1/(2√2) V_pp=1/(2√2)⋅1V≈0.354V.   2
+Spice Simulations
+Figure 7: Spice Plot of Currents through R2 and R4 
+
+Figure 8: Spice Plot of Voltages through each Resistor
+
+Hardware Simulations
+
+Figure 9: Waveforms Plot of Sine Wave voltages through R2 and R4
+
+Figure 10: Waveforms Plot of Square Wave voltages through R2 and R4
+
+
+Figure 11: Waveforms Plot of Triangular Wave voltages through R2 and R4
+
+
+
+Comparison
+
+TheoreticalSimulatedMeasured(ADK)
+R2Measured(ADK)
+R4Measured(Multimeter)
+R2Measured(Multimeter)
+R4VPP1V1V1.0011V1.0021V0.701V0.693VVrms0.354V0.354V0.35328V0.35354V0.248V0.245VTable 2: data table for sine wave voltage
+
+%Error (ADK)
+R2%Error (ADK)
+R4%Error (Multimeter)
+R2%Error (Multimeter)
+R4VPP0.109%0.210%n/an/aVrms0.204%0.215%42.7%44.5%Table 3: error table for sine wave voltage
+
+
+
+
+1.3 Low Pass Filter Analysis
+
+Calculations 
+AV = Vo/VI = |1/(jω RC + 1)|=|1/(20000 π j ⋅ 0.01 μ F  ⋅ 1k  + 1)|=0.8467
+ 
+ω_3db=1/RC=1/(0.01 μ f  ⋅ 1k)=10^5  "rad" /"s" 
+
+Spice Simulations
+
+Figure 12: Transient Analysis Plot of Low Pass Filter
+
+A_v=V_O/V_I =846.47974mV/999.71063mV=0.8467
+Phase shift = ωΔT=20,000π⋅-8.60155*10^(-6) s=-0.5405 rad=-30.97°
+
+Figure 13: Frequency Response Plot of Low Pass Filter
+
+ω_3db=2πf_3db=2π⋅16.012⋅10^3 Hz=98,583 "rad" /"s" 
+%Error of bandwidth, compared to theoretical value = 1.44%
+
+
+
+
+Hardware Simulations
+Figure 14: Sine Wave Voltage Plot of Low Pass Filter
+A_v=V_O/V_I =1.6858V/1.8882V  = 0.8957
+Figure 15: Waveforms Frequency Response of Low Pass Filter
+
+
+
+Comparison
+
+TheoreticalSimulatedMeasured%ErrorGain0.84670.84670.89565.46%Phase Shift n/a-30.97°-25.2°18.62%Table 4
+
+1.4 High Pass Filter Analysis
+
+Calculations
+AV = Vo/VI = |1/((jω RC)^(-1) + 1)|=|1/((2000 π j ⋅ 0.01 μ F  ⋅ 20k )^(-1) + 1)|=0.782
+ω_3db=1/RC=1/(0.01 μ f  ⋅ 20k)=5,000 "rad" /"s" 
+
+Spice Simulations
+
+
+Figure 16: Transient Analysis Plot of High Pass Filter
+
+A_v=V_O/V_I =781.56617mV/998.90166mV=0.782
+Phase shift = ωΔT=2,000π⋅0.1096335*10^(-3) s=0.6888 rad=39.47°
+Figure 17: Frequency Response Plot of High Pass Filter
+ω_3db=2πf_3db=2π⋅794.22485Hz=4,990.262 "rad" /"s" 
+%Error of bandwidth, compared to theoretical value = 0.195%
+
+Hardware Simulations 
+Figure 18: Sine Wave Voltage Plot of High Pass Filter
+A_v=V_O/V_I =1.4723V/1.9972V  = 0.737
+
+ 
+Figure 19: Waveforms Frequency Response of High Pass Filter
+
+Comparison 
+
+TheoreticalSimulatedMeasured%ErrorGain0.7820.7820.7376.11%Phase Shiftn/a39.47°36°9.62%Table 5
+Conclusion
+
+Section 1.1: Simple DC Circuit
+The results of this section demonstrate the validity of Ohm’s law and KVL for simple multiloop resistor circuits.  The also show that Spice is very good at accurately simulating simple resister circuits, as it gave results identical to the theoretical results up to 3 decimal places of precision.  The hardware results were also close to the theoretical results with an error of a little more than 1%.  This can be explained by the resistor values varying slightly from their advertised values and possibly also by general background noise affecting the oscilloscope reading.  
+
+Section 1.2: Simple AC Circuit
+The results here demonstrate the validity of voltage division and the accuracy of Spice simulations.  Slight errors in the measured peak-to-peak to voltages as well as slight variation between the values for R2 and R4 in the from the ADK can again be explained by the resistor values not exactly matching their advertised values as well as background noise affecting the readings.  The multimeter readings for RMS voltage had errors of upwards of 40%.  This is likely explained by a hardware problem with the multimeter itself, seeing as the same measurements from the ADK had errors of less than 1%.
+
+Section 1.3: Low Pass Filter Analysis
+The results of the analysis appear to show that low pass filters behave less ideally than simple resistor circuits, as the errors between the ADK readings and theoretical/simulated results were higher then in the prior two sections.  However, this is likely due in part to my capacitor value being 8.1% less than the advertised value, a significantly higher difference than for the resistors which varied only slightly from the advertised value.  The particularly high error in the phase shift value is also due in part to extreme difficulty in getting the actual time difference from the waveforms plot which meant I ultimately just had to eyeball the difference.   
+
+Section 1.4: High Pass Filter Analysis
+The results for 1.4 provide mostly the same conclusions as those for 1.3 do.  The error rates were somewhat lower despite using the same capacitor, which suggests that high pass filters perhaps tend to behave more ideally than low-pass filters do.  Again, Spice provided very accurate results compared to the theoretical results.
+
+
+
+Closing Arguments:
+Comment on the experience of carrying out the experiment
+- Was the goal achieved?
+Yes, the goal of refamiliarizing myself with Spice and getting familiar with the lab components and waveforms software was achieved.
+- What was learned?
+I learned how to successfully translate from a circuit diagram to a physical circuit on a breadboard by looking the diagram piece by piece, looking at what’s connected to what, whether the connection is series, parallel or neither and making sure to always ground the circuit.  I also realized I need to be mindful of how the inherent breadboard connections are laid out and the internal connections of the ADK.
+I also learned how to use the waveform generator, oscilloscope, and network analyzer in the waveforms software when the ADK is connected.
+- Difficulties encountered?
+The hardware quality of the ADK and jumper cables is very poor.  The leads don’t connect to the ADK properly, so they’re constantly coming loose, and the oscilloscope readings kept going crazy from just the slightest external interference.  Just briefly touching an insulated jumper cable that wasn’t even connected to the breadboard would make the oscilloscope readings go through the roof.  That made it very difficult to even tell if my circuit was even getting power at all or if I had a short somewhere.
+
+The ADK also quickly gets hot just from being connected to the computer even when I’m not running anything in waveforms.
+
+Additionally, the tutorial videos and user manual for the ADK are less than useless.  I’m tempted to say that “they’re not even wrong” in that they simply don’t address anything relevant.  There’s no instruction proved AT ALL on how to actually use the hardware, and searching online yielded nothing helpful either.  I finally figured out the basics from a lot of trial and error and working with a tutor and the TA’s, but I shouldn’t have had to spend hours doing that when the company could’ve simply provided a user manual that actually explained how to use the device they’re selling.    
+
+Finally and perhaps most important, the actual format for the lab report is incredibly inconvenient and convoluted because I constantly have to scroll up and down between sections of the lab report as I did the four different sections of the lab.  Half the time I was so focused on getting the formatting correct that I was completely distracted from anything having to do with actual circuit analysis.  Reading it back over several times, it’s also hard to follow because there’s so much jumping between sections 1.1 – 1.4.  
+
+- Suggestions for future improvements?
+Yes, switch to a different required hardware device.  I don’t know if the point was to save us money by having us buy an all one device, but I’d have preferred to spend more money and get something that’s higher quality.  We’re EE majors, so we’re inevitably going to have buy high quality materials at some point; by making us buy a low quality device that constantly gets hot and won’t stay connected to its leads, you’ve just made it that we’ll have to spend more money on better hardware later anyway because no one is going to want to keep using this device after the class ends.  
+
+More importantly, please stop requiring such a convoluted format for lab reports.  They take forever to fill out and they’re hard for a reader to follow.  If I were looking at someone else’s lab report, I’d want to read all of the stuff about each circuit together.  e.g. If I’ve just read the course of action for 1.1, I’ll then want to read the results of 1.1, not three more courses of action for three other circuits.  Once I’ve finished reading the entire section of courses of action, I’ve just finished reading about section 1.4 of the experiment but then the results section is suddenly back to talking about section 1.1.  That’s confusing, annoying, and makes reading and editing equally difficult and annoying.  It would make far more sense to just have a different lab report for each section.  That would be so much less overwhelming than one really long report.  If it has to be one report, it should be ordered the same way the instructions for the assignment are ordered: everything for section 1, then everything for section 2, etc.  That would make it much easier to read, much easier to write up and it would be less distracting from the actual goal of learning circuit analysis.  
+
+
+Post Lab Questions:
+Complete all of the questions for the lab (use SPICE where applicable)
+
+1. With respect to AC parameters, what type of Voltage or Current measurement is
+     taken with digital multimeters and what types with oscilloscopes?
+Multimeters only measure RMS voltage and current, so anything else (e.g. peak-to-peak) would have to be measured with an oscilloscope or similar device.
+2. Why is it dangerous to short a voltage source?
+Because, in theory, shorts have infinite current and zero voltage.  In practice, the current won’t actually be infinite of course, but it will be much larger than the device is likely intended to output, which risks damaging the voltage source itself and/or other circuit components.  More importantly, if someone not wearing protective equipment were to touch something in the circuit while the source was shorted they could be injured or even killed depending on how high the current was.  
+
+
+
+
+
+
+
+
+3. Use LTSpice to implement and discuss the outcomes of the followings:
+	a. Modifying the resistors, R1 and R2, to be 10kΩ in the simple AC circuit shown
+    in Fig. 1.2, instead of 1kΩ.
+As shown in the screenshot below, the current values are now the same and their peak is between the prior two peaks.  The voltages are unaffected by the change.
+
+b. Applying a sinusoidal input signal of 20Vpp and 1 kHz in the low pass filter
+     circuit shown in Fig. 1.3, as a substitute of 2Vpp and 10 kHz.
+As shown in the screenshot below, this change had the effect of making the phase shift between the voltages nearly zero.
+
+The -3dB frequency is left more or less unchanged, as shown below.
+
+
+
+
+
+
+c. Modifying the resistor R to be 2kΩ in the High Pass Filter circuit shown in
+    Fig. 1.4, instead of 20 kΩ.
+The circuit now allows only allows voltages between about -0.1V and 0.1V volts to be output.  That suggests that, for this particular type of circuit, voltage and frequency are inversely proportional, as this is a high pass filter.
+
+The -3dB frequency has been increased by about a factor 10.
+
+4. Determine the nominal value of the resistor, along with its tolerance, equivalent to the
+    following colors of the bands. Use Table 1.1 and eqn. (1.3).
+      i. Band A, brown; band B, black; band C, red; band D, gold.
+      R=(10⋅1+0)⋅100±5%=1k±0.05k
+      ii. A, B, and C bands are yellow and band D is gold.
+      R=10,000(10⋅4+4)±5%=440k±22k
+      iii. If the nominal value of the resistor is 10Ω, what would be the best
+            choice of the color bands?
+      Assuming a margin of error of ±5%:
+      In order, brown, black, black, gold.
+Proof of Completion:
+
+Note that the reason the graph in the picture isn’t present in the report is because I ended up redoing parts 3 and 4, but I’d already had someone take the picture for me (as I couldn’t get a decent picture as a selfie) at that point.  
+1 The breadboard is from the discover electronics kit used for FSE100.  There is no model number specified.  It’s just listed as “breadboard” in the list of components for the kit.
+2 Note that I’m using Vpp = 1V instead of 2V because 1V is used in the example lap report and I didn’t realize there was a discrepancy between the example lab report and the lab instructions until after I’d already done all the simulations in Spice and Waveforms and dismantled the breadboard circuit.  I wasn’t going to redo everything at that point.   
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+2
+
+
+
+
+
+1
+
+

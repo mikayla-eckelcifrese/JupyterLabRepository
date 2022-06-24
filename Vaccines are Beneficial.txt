@@ -1,0 +1,207 @@
+﻿Vaccines are Beneficial 
+      For the majority of human history, humanity has been at the mercy of infectious diseases, 
+with little that could be done to treat or prevent them, because it wasn’t understood what caused 
+them.  Yet, we now have modern medicine and can much more effectively both treat and prevent 
+most infectious diseases.  One of the most important tools in this fight is vaccines, which 
+effectively train the body to recognize and fight off diseases prior to the person being exposed to 
+the illness.  The invention of vaccines has saved countless lives over the past several decades; 
+this is an empirically verifiable fact, as will be demonstrated later.  And yet, there has been and 
+continues to be much controversy over both the safety and effectiveness of vaccines in recent 
+years, with the recent Covid-19 vaccines being particularly controversial.  Nonetheless, in 
+general, vaccines are very effective at preventing illness and they tend to pose minimal risks for 
+those receiving them.  In fact, vaccines have been so effective at practically eliminating many 
+diseases that society has forgotten what it was like before vaccines and so many people falsely 
+believe they were never necessary to begin with.    
+      Perhaps the most impressive vaccine breakthrough of the 20th century, and which 
+demonstrates just how effective vaccines can be at eliminating infectious diseases in a 
+population, is the eradication of smallpox, “an ancient disease…[with] mortality rates [that] can 
+reach as high as 80%” (Pennington).  There were many smallpox epidemics throughout history 
+and countless lives lost as a result.  For example, the following graph shows that “in London in 
+the 18th century around 1 in every 13 deaths was caused by smallpox, the majority of which 
+were young children” (Ochmann).
+
+
+
+(ibid)
+As the graph demonstrates, the proportion of deaths due to smallpox started vastly decreasing 
+just before 1796, which corresponds to British surgeon Edward Jenner’s invention of “the 
+smallpox vaccine, the world’s first vaccine against any disease” (Ochmann and Richie).  
+However, it wasn’t until mass vaccination efforts in the 20th century that the disease was actually 
+eradicated.  To be specific, “Between 1900 and 1949, prior to routine use of the smallpox 
+vaccine in the U.S., there were approximately 29,000 cases of smallpox annually in the U.S. 
+After the mass vaccination program, there were zero cases of wild smallpox in the United States
+ (and the entire planet, too)” ( Naprawa).  As shown in the following graph, it was around 1980 
+that the disease was all but gone thanks to this global vaccination effort:
+
+(“Global Number of Reported Smallpox Cases.”)
+      In spite of the vast success of vaccines, most notably in the aforementioned case of 
+smallpox, vaccine hesitancy has been around for a long time.  One might think that the hesitancy 
+prior to the success of the smallpox vaccine was different than the hesitancy today and in some 
+ways it was, but in other ways it actually wasn’t all that different.  In terms of how it was 
+different, for example, “some [people] decried [the first smallpox vaccine] as being opposed to 
+God’s will” (Pennington).  This was also one reason some people resisted variolation – a 
+precursor to vaccination – prior to the introduction of the smallpox vaccine.  The 18th century 
+idea that variolation constituted an unnatural interference of a person’s relationship with God 
+was one of  “the seeds of later anti-vaccination attitudes” (Haelle).  However, as time went by, 
+vaccine resistance became less about religion and more about “a general mistrust of scientific 
+institutions and government” (Goldberg, qtd. in Haelle).  So while some people fed opposition to 
+the smallpox vaccine by claiming it was against God’s will, others “played on the public’s 
+misunderstanding of the vaccine and fears of putting foreign substances into one’s body” 
+(Pennington). According to Agnes Arnold-Forstor, “a medical historian at the University of 
+Bristol in England, ‘Attempts to curb [such opposition] often failed because they relied on 
+authoritarian and coercive methods’” (Haelle).  Even today, a lack of trust in healthcare 
+authorities is linked to vaccine hesitancy, as the following graph demonstrates:
+      (“Trust in Doctors and Nurses vs. Disagreement Vaccines Are Safe, 2018.”)
+      Where mandating the smallpox vaccine caused some people to resist more strongly than 
+before, showing the sheer effectiveness of it worked to convince people to get vaccinated 
+(Pennington).  This isn’t unique to the smallpox vaccine, however, and it only works if people 
+trust the source of the information about the effectiveness of vaccines.  For example, in 1947, 
+after the death of “Eugene Le Bar, a merchant traveling from Mexico City to Maine with his 
+wife”, from smallpox, 
+[New York City Mayor William] O’Dwyer held a press conference in which he asked all 
+[NYC] residents who had not been recently vaccinated to be vaccinated against the 
+disease. In the next month, 80% of the city’s residents were vaccinated—some 6.35 
+million people. In the end, the effort was judged a success: the total number of smallpox 
+cases reached only 12, and the final death count was limited to two (“March 1, 1947: A 
+Massive Vaccination Effort.”). 
+This was effective in convincing residents to get vaccinated because they trusted the source of 
+the information as well as because the harm of smallpox was well-known and self-evident at the 
+time.  That is, it wasn’t only the sheer effectiveness of the vaccine and trusted information source 
+that convinced people to get vaccinated, but also the common knowledge that smallpox was 
+incredibly dangerous and all too widespread.  
+      While the smallpox vaccine was able to actually eradicate the disease to the extent that 
+the vaccine itself is rarely needed anymore, most infectious diseases aren’t so easy to eliminate 
+entirely.  Instead, when most individuals in a population are vaccinated, most vaccines minimize 
+the number of cases of the relevant disease(s) without getting rid of it/them altogether, hence 
+providing herd immunity.  This means that, unlike with the smallpox vaccine, when other 
+vaccines were introduced in the later portion of the 20th century, the general public didn’t see the 
+sheer horror that such diseases could cause to the same extent that they did with smallpox and so 
+the vaccines weren’t seen as being as important as they actually were.  This is even more of a 
+concern today because diseases such as measles have been essentially sent “into remission” due 
+to mass vaccination, but haven’t been eradicated.  Hence, people think such diseases are gone 
+and so don’t see the necessity of vaccination, which threatens the population’s herd immunity 
+against such diseases.
+      Today’s concerns that vaccines aren’t actually necessary at all started with 20th century 
+concerns about the safety of vaccines.  Some specific safety concerns people had about vaccines 
+in the 20th century were the result of intentional deception about vaccines.  For example, there 
+was a 1982 documentary called “DPT: Vaccine Roulette” which wrongly condemned the safety 
+of the DPT (diphtheria-pertussis-tetanus) vaccine by “highlight[ing] stories of parents and 
+doctors claiming that children developed seizures and permanent brain damage” (Pennington), 
+even though the chance of having a seizure as a side effect was small and there was no evidence 
+that the vaccine caused long-term harm (ibid).  Additionally, in 1998, “British gastroenterologist 
+Andrew Wakefield published a report in the Lancet alleging that the measles-mumps-rubella, or 
+MMR, vaccine caused autism spectrum disorder in 12 children” (Haelle).  Years later this study 
+was debunked and Wakefield revealed as a fraud, as it turned out he had intentionally used false 
+data (Seppa), and yet, to this day many people wrongly believe that vaccines in general cause 
+autism.  This is despite the fact that Wakefield himself only claimed that one specific vaccine 
+caused autism and even that claim has been long since been proven untrue.
+      In addition to the still prevailing but erroneous claims that vaccines cause autism, in 
+current times, many people mistakenly believe that vaccines never did anything helpful and that 
+there’s a conspiracy to trick people into getting them just so pharmaceutical companies can make 
+money.  However, since vaccines do, in fact, prevent diseases, companies could actually make 
+far more money from selling treatments for vaccine-preventable illnesses by not producing 
+vaccines then they make by selling them.  In fact, “vaccines produce around a 5% lower profit 
+percentage than do other pharmaceuticals” (The Original Skeptical Raptor).  Hence, it’s only 
+necessary to debunk the argument that vaccines are completely ineffective.  When those who 
+claim vaccines aren’t the reason for the decline in illnesses such as smallpox and measles are 
+confronted with data such as the aforementioned graphs showing the decline of smallpox, they 
+say it wasn’t vaccines that caused the decline, but better hygiene practices.  For example, they 
+might cite the following graph, pointing out that measles death rates were already declining prior 
+to the introduction of a measles vaccine:
+(Fallacy Man, “US Measles Death Rates.”)
+The problem with this argument is that, while it’s true that measles deaths were declining prior to 
+the introduction of vaccination and this is at least in part due to better hygiene practices, it’s 
+entirely possible for there to be more than one reason for the declining death rates.  There’s 
+nothing illogical or unreasonable about the claim that better hygiene practices decreased the 
+deaths from many types of diseases and then, later on, vaccination caused an even greater 
+decrease.  In fact, that’s exactly what happened.  The reason that’s not very clear from the above 
+graph is because it’s zoomed out too much (Fallacy Man, “Yes, Vaccines did Save us from 
+Disease: a Graphic Analysis”).  You can faintly see that there’s an additional decrease in the 
+above graph where the arrow points, but it’s much clearer if we zoom in on the relevant time 
+frame: 
+(Fallacy Man, “US annual measles death rates before and after the introduction of the vaccine”) 
+Both of these graphs are valid and use the same data, but the latter more clearly shows the 
+additional decline in deaths correlated with the introduction of the measles vaccine and makes it 
+evident that the decline is not merely continuing the earlier pattern.  
+      Furthermore, while some people might argue that this is only a correlation and doesn’t 
+demonstrate a causal relationship, the science of vaccination is well understood by biologists and 
+vaccine effectiveness has been definitively demonstrated many times over:
+For example, numerous experiments have confirmed that herd immunity does 
+work, and [hence] having a large number of vaccinated people decreases the 
+community wide disease rates by protecting the unvaccinated (Rudenko et al. 
+1993; Hurwitz et al. 2000; Reichert et al. 2001; Ramsay et al. 2003). Similarly, 
+multiple studies have documented that introducing vaccines into a population 
+causes the disease and death rates to plummet (Clemens et al. 1988; Adgebola et 
+al. 2005; Richardson et al. 2010). Other studies have clearly demonstrated that 
+people who are vaccinated have lower disease rates than people who are not 
+vaccinated (Schmitz et al. 2011). Finally, there have been numerous documented 
+instances of disease outbreaks accompanying low vaccination rates (Antona et al. 
+2013; Knol et al. 2013) (Fallacy Man, “Yes, vaccines did save us from disease: a 
+graphic analysis”).
+Additionally, in the U.S., every new vaccine is required to undergo rigorous scientific testing to 
+demonstrate both safety and effectiveness.  According to the FDA [Food and Drug 
+Administration] website, before a vaccine can be approved, the FDA must “evaluate the data 
+[provided] to determine whether the safety and effectiveness of the vaccine has been 
+demonstrated and whether the manufacturing and facility information assure product quality and 
+consistency” (“Vaccine Development – 101”).  In other words, vaccine manufacturers must do 
+their own studies demonstrating the safety and efficacy of the vaccine they want approved and 
+the FDA will then evaluate their data and results before potentially granting approval.    
+	Moving on, many of the current concerns people have about vaccines are in regards to the 
+COVID-19 vaccines specifically.  One of the biggest concerns which bothered even those who 
+aren’t normally vaccine hesitant is that the vaccines were developed much more quickly than 
+normal.  This is a valid concern given that, normally, developing a new vaccine can take years or 
+even decades, while “the first vaccines to combat COVID-19 were developed, tested and given 
+emergency use authorization in 11 months” (Lance).  One of the reasons vaccine development 
+usually takes so long is that traditionally, vaccines have been made of weakened or dead versions 
+of the relevant virus or at least a portion of the virus, and “growing enough debilitated 
+viruses…to make vaccine doses for millions of people can take months or even years” (Hesman 
+Saey).  However, this wasn’t a problem with the COVID vaccines because they don’t use any 
+part of the virus itself.  Instead, the vaccines are “made of mRNA wrapped in a coating that 
+makes delivery easy and keeps the body from damaging it” (“How MRNA COVID-19 Vaccines 
+Work”).  Essentially, rather than the body learning how to fight off the virus by being exposed to 
+a weakened version of it, “The mRNA in the vaccine teaches your cells how to make copies of 
+the spike protein” (ibid), a prominent feature of the virus and “if you are exposed to the real virus 
+later, your body will recognize it and know how to fight it off” (ibid).  This type of vaccine is 
+much faster to produce.  Specifically, while “a traditional vaccine takes two to three years to 
+develop” one version of an mRNA covid vaccine “took [only] three hours to design and about a 
+month to manufacture” (Hesman Saey).  
+      However, scientific developments weren’t the only reason for the covid vaccines being 
+developed so much more quickly than normal. There are main 5 stages of vaccine development 
+which are normally done consecutively, that is, the first stage must be completed prior to starting 
+the second stage, and so on.  The reason is that, if a problem were discovered in an earlier stage, 
+all the work done and money spent on the later stages could end up being for nothing (“Are 
+COVID Vaccines Really Safe?”).  Nonetheless, because of how widespread the pandemic has 
+been and how desperately we needed a vaccine, governments all over the world poured far more 
+money into developing covid vaccines than would normally be spent on vaccine development, 
+which allowed researchers to do many of the development stages in parallel, hence saving (ibid) 
+around 4 – 6 years (Lance).  
+      Ultimately, the COVID vaccines are just as safe as any other vaccines, and yet many 
+people refuse to get vaccinated, some because they’ve been tricked into believing lies about the 
+vaccines and/or the pandemic and others because they selfishly put their own ideas of personal 
+liberty ahead of both their own health and the lives and health of those around them. Considering 
+the issue from either an act utilitarianist or rule utilitarianist perspective, the latter group is 
+certainly behaving unethically because both the individual act of refusing to get vaccinated 
+because they think such a refusal is an exercise of personal freedom, as well as people treating 
+such a refusal as a rule, put countless other people at risk of catching a dangerous and potentially 
+deadly disease.  From a utilitarian perspective, those refusing the vaccine because of erroneous 
+beliefs about its safety, efficacy, or necessity are also behaving unethically, as utilitarianism 
+considers only consequences, not intentions.  From a Kantian perspective, the latter group are 
+behaving unethically because they’re treating other individuals as mere means – they aren’t 
+respecting their autonomy and concerns as individuals and are completely disregarding the effect 
+their refusal will have on other people, essentially treating them as a means to satisfy their own 
+desire to exercise their freedom.  The former group, however, aren’t behaving unethically from a 
+Kantian perspective because they aren’t willfully risking harm to other people and so cannot be 
+said to be disregarding the humanity of others.  	
+      In conclusion, from the beginning, there have been people hesitant to receive vaccines or 
+even openly opposed to their use, sometimes for religious reasons, sometimes because of 
+mistaken beliefs about their safety, effectiveness, or necessity due to a lack of truth in the 
+government and/or healthcare authorities, and sometimes out of a selfish desire to rebel against 
+what they perceive as a violation of their personal freedom.  Nevertheless, vaccines have saved 
+countless lives from deadly diseases for hundreds of years and scientists are working on ways to 
+speed up the development process, such as developing mRNA vaccines instead of more 
+traditional vaccines via a weakened form of the relevant virus species.  
+
+
+
+     
+

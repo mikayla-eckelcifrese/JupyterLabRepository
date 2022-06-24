@@ -1,0 +1,44 @@
+﻿Mikayla Eckel Cifrese
+
+SUMMARY
+Junior electrical engineering student with experience in tutoring, programming/software engineering, mathematics, circuit analysis, digital design, physics, and customer service seeking an internship/co-op/junior position in electrical/software engineering. 
+EDUCATION 
+B.S.E., Electrical Engineering; Data Science Minor	Graduating December 2023
+Arizona State University, Tempe, AZ	3.4 GPA
+Relevant Courses: Principles of Programming with C++, Computer Organization and Assembly Code, Digital Design, 
+Circuits I –II, Physics III, Signals and Systems I, Electromagnetics, Math of Data Science, Applied Linear Algebra
+A.S., Mathematics	2020
+Mercer County Community College, West Windsor, NJ	3.8 GPA
+Relevant Courses: Statistics I – II, Calculus I – III, Differential Equations, Linear Algebra, Physics I – II, Chemistry I – II
+TECHNICAL SKILLS
+Data Analysis and Statistics: Minitab, Microsoft Excel, 4 years of experience tutoring introductory statistics and probability
+Software Engineering: C, C++, Python, JavaScript (currently learning), Visual Studio, Git and GitHub, Data Structures and Algorithms, Research Skills and Navigating Hardware and Software Documentation, Computer Science Fundamentals, Embedded Systems/Firmware Engineering, Unit testing
+Mathematics: Calculus, Linear Algebra, Differential Equations, Statistics and Probability, Discrete Mathematics
+Circuit Analysis: LTspice, EveryCircuit, experience building and testing circuits via an oscilloscope and logic analyzer
+Digital Logic Design: Intel Quartus, experience testing digital circuit designs on an FPGA
+Physics: Classical Mechanics, Electromagnetism, Quantum Mechanics, Special Relativity, Modern Physics
+JOB HISTORY 
+STEM and English Tutor, Mercer County Community College	                                                                 Sept 2017 – Present
+Duties:
+● Assist students with completing homework assignments/projects, including a statistics project that uses Minitab
+● Help students understand core course concepts and teach them study skills to increase their likelihood of success 
+● Read student essays and provide both verbal and written feedback
+Subjects Tutored: Statistics and Probability, Reading, Writing, Grammar, ESL, College Algebra, Linear Algebra, Precalculus/Trigonometry, Calculus, Physics, Chemistry, Math for Liberal Arts, Programming
+Customer Service Associate, CVS Health	Oct 2017 - Dec 2021
+Firmware Test Engineering Co-op, Schneider Electric	Jan 2022 – August 2022
+Duties:
+● Perform unit tests on I2C library functions and HAL (Hardware Abstraction Layer) functions
+● Design and implement a user interface for communicating with an accelerometer via the I2C protocol 
+● Navigate both hardware and software documentation and document relevant information in implementation code
+ACADEMIC PROJECTS
+Hardware Design Labs	Jan-March 2020
+● Built multiple digital circuit schematics of increasing complexity, beginning with simple logic functions
+● Used Intel Quartus to apply the circuit schematics to a physical FPGA, which was used to test the circuit designs
+● Created a microcontroller circuit schematic by combining simpler schematics from previous labs
+Musical Instrument Design Group Project	Oct-Dec 2020
+Project Description:  As a group, we designed and built musical instruments, recorded a song, and made a presentation.
+Individual Contributions:
+● Performed physics calculations for instrument designs and typed them up via LaTeX 
+● Designed and built a drum
+● Helped organized the design and implementation of the PowerPoint presentation
+
